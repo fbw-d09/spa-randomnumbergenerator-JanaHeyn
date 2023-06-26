@@ -1,4 +1,4 @@
-import { RandomList } from './RandomList';
+import RandomList from './RandomList';
 import React from 'react';
 
 export default function App() {

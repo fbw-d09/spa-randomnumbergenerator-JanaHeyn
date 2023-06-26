@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export const RandomList = () => {
+const RandomList = () => {
     const [numbers, setNumbers ] = useState([]);
 
     const handleNumbers = () => {
@@ -22,3 +22,5 @@ export const RandomList = () => {
         </div>
     )
 }
+
+export default RandomList;
